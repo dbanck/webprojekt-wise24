@@ -1,5 +1,7 @@
 body {
   font-size: 20px;
+  color: goldenrod;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 header {
@@ -33,5 +35,21 @@ img {
 }
 
 span {
+  color: green;
+}
+
+.blue {
   color: blue;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+#zutaten {
+  font-size: 100px;
 }

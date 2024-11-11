@@ -23,6 +23,18 @@ main {
 
 
 /* Stufenförmig */
+/* ul strong {
+  color: red;
+} */
+
+/* ul li strong {
+  color: red;
+} */
+
+
+ul.highlighted li > strong {
+  color: red;
+}
 
 
 
