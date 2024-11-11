@@ -93,15 +93,31 @@ ul.highlighted li > strong {
 
 /* Spezifität */
 
+div {
+  color: red;
+  background-color: #003362;
+}
 
+.meine-klasse {
+  color: blue;
+  margin-bottom: 50px;
+}
 
+#eineId {
+  color: green;
+}
 
+div {
+  color: yellow;
+}
 
+ul li.meine-klasse p #eineId {
+  color: red;
+}
 
-
-
-
-
+ul li p #eineId {
+  color: green;
+}
 
 
 
@@ -131,4 +147,13 @@ ul.highlighted li > strong {
 /* Box Modell */
 * {
   /* border: 1px solid red !important; */
+}
+
+.boxmodell {
+  margin: 50px;
+  border: 1px solid red;
+  padding-left: 20px;
+  padding-top: 50px;
+  width: 250px;
+  height: 300px;
 }
