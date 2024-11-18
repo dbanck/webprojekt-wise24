@@ -5,11 +5,14 @@
 html {
   font-size: 32px;
   line-height: 1.6;
+
+  font-family: "Ubuntu Mono", monospace;
 }
 
 h1,
 h2 {
   color: #6b6b6b;
+  font-family: "Aclonica", sans-serif;
 }
 
 .content {

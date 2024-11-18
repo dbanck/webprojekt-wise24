@@ -1,0 +1,45 @@
+header {
+  background: #55ffd6;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/******** 
+ * Main Navigation 
+ ******** */
+
+.main-nav {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+}
+
+.main-nav a {
+  /* width: 300px; */
+  /* width: 25%; */
+  flex: 1; // <-- makes the elements grow inside the .main-nav
+
+  text-decoration: underline;
+  font-size: 36px;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-left: 1px solid #fff;
+}
+
+.main-nav a.border-right {
+  border-right: 1px solid #fff;
+}
+
+.main-nav a.active {
+  background: #469b87;
+}
+
+/********
+ * Footer
+ ******** */

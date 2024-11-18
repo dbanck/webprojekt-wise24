@@ -1,6 +1,6 @@
 .my-class {
   color: blue;
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 .my-class {
@@ -8,14 +8,14 @@
 }
 
 h2 {
-  color: red;
+  /* color: red; */
   font-size: 44px;
 }
 
-#id {
+/* #id {
   font-size: 22px;
-}
+} */
 
 h2 {
-  color: green;
+  /* color: green; */
 }
